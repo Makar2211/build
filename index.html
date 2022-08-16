@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>build</title>
+    <link rel="stylesheet" href="sass/css/main.css">
+  </head>
+  <body>
+    <header class="header">
+        <div class="container">
+            <div class="header__string">
+                    <div class="header__string__get">Get your dream house in a week.</div>
+                    <img class="header__string__close" src="img/Vectorclosebtn.png" alt="close"> 
+            </div>
+                <div class="flex">
+                    <div class="header__logo">
+                        <img src="img/logo.png" alt=""> <span>Realco</span> 
+                    </div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <a class="nav-link" href="#" style="
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #222222;
+                            ">Home</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" <a class="nav-link" href="#" style="
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #222222;
+                                ">Properties</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#" style="
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #222222;
+                            ">About</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="nav-link" href="#" style="
+                                    font-family: 'Roboto';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #222222;
+                                ">Contact</a>
+                              </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+                                <!-- <img class="img_search" src="img/search.png" alt=""> -->
+                                <button class="surch_btn" type="submit" style="padding-right: 0.5rem;
+                                padding-left: 0.5rem;">Search</button>
+                              </form>
+                          </div>
+                        <button class="header__card">
+                            <img src="img/shopping_bag.png" alt="">
+                            <span>Cart</span>
+                        </button>
+
+                        <button class="button">Call back</button>
+                      </nav>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="for">
+          <form class="form " action="send.php" method="post">
+              <div class="form__text">Форма отправки</div>
+              <input type="text" name="fio" placeholder="Укажите ФИО" required>
+              <input type="text" name="email" placeholder="Укажите e-mail" required>
+              <!-- <input type="tel" name="phone" placeholder="Укажите телефон" required> -->
+              <input type="submit" value="Отправить">
+              <img class="imgClose" src="img/Vectorclosebtn.png" alt="">
+              </form>
+      </div>
+    </header>
+    
+
+    <section class="find">
+      <div class="container">
+        <div class="row">
+          <div  class="find__information col-md-6">
+            <img class="left" src="img/leftpos.svg" alt="">
+            <img class="right" src="img/rightpos.svg" alt="">
+            <button class="find__btn">Find your dream place</button>
+            <h1 class="find__headtext">Find house for your <br> 
+              family in minutes</h1>
+             <div class="find_subtext">Aenean sodales mauris quis tellus facilisis, vel mattis <br> magna. Interdum curabitur eget aliquam elit in mauris <br> purus.</div> 
+
+             <form class="find__form">
+              <input class="find__input" type="text" placeholder="search" src="img/search.svg" required>
+              <button class="button button__submit" type="submit" value="Отправить">Find property</button>
+             </form>
+          </div>
+          <div class="find__img col-md-6">
+            <img  src="bg/bgheader.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="works">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+            <div class="works__header">
+              <div class="works__left">
+                <span>As seen on the world's best <br> magazines and media</span>
+              </div>
+    
+              <div class="works__right">
+                <img class="works__img" src="img/logo1.svg" alt="1">
+                <img class="works__img" src="img/logo2.svg" alt="2">
+                <img class="works__img" src="img/logo3.svg" alt="3">
+                <img class="works__img" src="img/logo4.svg" alt="4">
+                <img class="works__img" src="img/logo5.svg" alt="5">
+              </div>
+            </div>
+            <div class="works__text">
+              How it works
+            </div>
+            <div class="works__subtext">
+              Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque. <br>
+               Maecenas varius felis felis.
+            </div>
+  
+            <div class="works__blok">
+              <div class="works__bloks col-md-4">
+                <img src="img/bloks1.png" alt="">
+                <div class="works__bloks__text">
+                  Find property
+                </div>
+                <div class="works__bloks__subtext">Odales mauris quis tellus facilisis, vel mattis <br> magna interdum. Curabitur eget aliquam elit. In <br> mauris purus, auctor a eleifend non.</div>
+              </div>
+    
+              <div class="works__bloks col-md-4">
+                <img src="img/bloks2.png" alt="">
+                <div class="works__bloks__text">
+                  Make a deal
+                </div>
+                <div class="works__bloks__subtext">Pellentesque suscipit mauris. Nam dictum, <br> erat a volutpat varius, urna nisi sollicitudin <br> orci, sagittis facilisis odio tortor ac mi.</div>
+              </div>
+    
+              <div class="works__bloks col-md-4">
+                <img src="img/bloks3.png" alt="">
+                <div class="works__bloks__text">
+                  Get your keys
+                </div>
+                <div class="works__bloks__subtext">Nulla vel bibendum purus. Etiam tempus <br> quam vel pulvinar rutrum. Duis semper, <br> metus vitae fermentum consequat.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    <section class="send">
+      <div class="container">
+        <div class="row">
+          <div class="send__left col-md-6">
+            <button class="send__btn">Comfort first</button>
+            <div class="send__text">
+              The best houses for <br> family comfort
+            </div>
+            <span class="send__subtext">Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin <br> sollicitudin, lorem non posuere blandit.</span>
+            <div class="send__btns">
+              <button class="send__btns__btn">Explore properties</button>
+              <div class="send__btns__text "> Contact agent <img src="img/arrow.svg" alt="">
+                    <div class="contact" style="display: none;">
+                      <span>Our email</span>: makardovgopolji@gmail.com <br>
+                      <span>Our phone</span>: +380665820998 <br>
+                      <span>Our adress</span>: c.Dnepr, Voronejskaya
+                      <button class="remove">закрыть</button>
+                  </div>
+
+                  <div class="contacts" style="display: none;">
+                    dsadsadadadasd
+                    <button class="remove">закрыть</button>
+                </div>
+                  
+                  
+                
+            
+          </div>
+        </div>
+      </div>
+        <div class="send__right col-md-6">
+          <img src="bg/img1.jpg" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sendbot">
+      <div class="container">
+        <div class="row">
+          <div class="sendbot__left col-md-6">
+          <img src="bg/img2.jpg" alt="">
+          </div>
+
+          <div class="sendbot__right col-md-6">
+            <button class="send__btn">Quick and easy</button>
+            <div class="send__text">
+              Fast forward process
+            </div>
+            <span class="send__subtext">Ut vitae nisi eu nisi maximus condimentum ac id purus. Duis sit amet mi <br> arcu praesent nec felis nisl.</span>
+            <div class="sendbot__docs">
+              <div class="sendbot__docs__doc">
+                <div class="sendbot__docs__doc__img">
+                  <img src="img/description.png" alt="">
+                </div>
+                <div class="sendbot__docs__doc__text">Affordable prices</div>
+                <div class="sendbot__docs__doc__subtext">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Suspendisse varius enim in eros.</div>
+              </div>
+              <div class="sendbot__docs__doc doc">
+                <div class="sendbot__docs__doc__img">
+                  <img src="img/description.png" alt="">
+                </div>
+                <div class="sendbot__docs__doc__text">Less paper work</div>
+                <div class="sendbot__docs__doc__subtext">Curabitur porta luctus semper donec <br> eget lobortis leo ac finibus nisi.</div>
+              </div>
+            </div>
+            <div class="send__btns ">
+              <button class="send__btns__btn">Explore properties</button>
+              <div class="send__btns__tex"> Contact agent <img src="img/arrow.svg" alt=""></div>
+              <div class="second hidden">
+                <span>Our email</span>: makasha2004@gmail.com <br>
+                <span>Our phone</span>: +380950524529 <br>
+                <span>Our adress</span>: c.Dnepr, Slobojanskiy
+                <button class="remove__add">закрыть</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="houses">
+      <div class="container">
+        <img class="houses__imgtop__2" src="img/leftbottom.png" alt="">
+        <div class="row">
+          
+            <div class="houses__imgtop">
+              <img class="houses__imgtop__1" src="img/righttop.png" alt="">
+            </div>
+
+          <buttom class="houses__btn">Properties</buttom>
+          <div class="houses__text">
+            Houses in your favorite area
+          </div>
+
+
+          <div class="houses__bloks">
+            <div class="houses__blok">
+              <img class="bg" src="bg/house1.jpg" alt="">
+              <div class="houses__padding">
+                <div class="houses__blok__text">Cozy studio in Los Angeles</div>
+              <div class="houses__blok__subtext">$ 1,200.00 USD</div>
+              <div class="houses__blok__map">
+                <img src="img/map.svg" alt="">
+                <div class="houses__blok__map__text">2263 Southlea, Los Angeles</div>
+              </div>
+              <div class="houses__footer">
+                <div class="houses__footer__bloks">
+                  <img src="img/footer1.svg" alt="">
+                  <span>2</span>
+                </div>
+                <div class="houses__footer__bloks">
+                  <img src="img/footer2.svg" alt="">
+                  <span>2</span>
+                </div>
+                <div class="houses__footer__bloks">
+                  <img src="img/footer3.svg" alt="">
+                  <span>840 sqft</span>
+                </div>
+              </div>
+              </div>
+            </div>
+  
+            <div class="houses__blok">
+              <img class="bg" src="bg/house2.jpg" alt="">
+              <div class="houses__padding">
+                <div class="houses__blok__text">Tiny home in San Diego</div>
+              <div class="houses__blok__subtext">$ 740,000.00 USD</div>
+              <div class="houses__blok__map">
+                <img src="img/map.svg" alt="">
+                <div class="houses__blok__map__text">2569 El Segundo, San Diego</div>
+              </div>
+              <div class="houses__footer">
+                <div class="houses__footer__bloks">
+                  <img src="img/footer1.svg" alt="">
+                  <span>1</span>
+                </div>
+                <div class="houses__footer__bloks">
+                  <img src="img/footer2.svg" alt="">
+                  <span>2</span>
+                </div>
+                <div class="houses__footer__bloks">
+                  <img src="img/footer3.svg" alt="">
+                  <span>400 sqft</span>
+                </div>
+              </div>
+              </div>
+            </div>
+  
+            <div class="houses__blok">
+              <img class="bg" src="bg/house3.jpg" alt="">
+              <div class="houses__padding">
+                <div class="houses__blok__text">Crown house in New York</div>
+              <div class="houses__blok__subtext">$ 980,000.00 USD</div>
+              <div class="houses__blok__map">
+                <img src="img/map.svg" alt="">
+                <div class="houses__blok__map__text">4489 Smity Fielda, New York</div>
+              </div>
+              <div class="houses__footer">
+                <div class="houses__footer__bloks">
+                  <img src="img/footer1.svg" alt="">
+                  <span>2</span>
+                </div>
+                <div class="houses__footer__bloks">
+                  <img src="img/footer2.svg" alt="">
+                  <span>4</span>
+                </div>
+                <div class="houses__footer__bloks">
+                  <img src="img/footer3.svg" alt="">
+                  <span>3200 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="houses__blok">
+            <img class="bg" src="bg/house4.jpg" alt="">
+            <div class="houses__padding">
+              <div class="houses__blok__text">Family house in Los Angeles</div>
+            <div class="houses__blok__subtext">$ 4,200.00 USD</div>
+            <div class="houses__blok__map">
+              <img src="img/map.svg" alt="">
+              <div class="houses__blok__map__text">2263 Southlea, Los Angeles</div>
+            </div>
+            <div class="houses__footer">
+              <div class="houses__footer__bloks">
+                <img src="img/footer1.svg" alt="">
+                <span>2</span>
+              </div>
+              <div class="houses__footer__bloks">
+                <img src="img/footer2.svg" alt="">
+                <span>3</span>
+              </div>
+              <div class="houses__footer__bloks">
+                <img src="img/footer3.svg" alt="">
+                <span>1400 sqft</span>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+
+          <div class="houses__blok">
+            <img class="bg" src="bg/house5.jpg" alt="">
+            <div class="houses__padding">
+              <div class="houses__blok__text">Studio in Las Vegas</div>
+            <div class="houses__blok__subtext">$ 820,000.00 USD</div>
+            <div class="houses__blok__map">
+              <img src="img/map.svg" alt="">
+              <div class="houses__blok__map__text">2569 Halls Corner, Las Vegas</div>
+            </div>
+            <div class="houses__footer">
+              <div class="houses__footer__bloks">
+                <img src="img/footer1.svg" alt="">
+                <span>2</span>
+              </div>
+              <div class="houses__footer__bloks">
+                <img src="img/footer2.svg" alt="">
+                <span>3</span>
+              </div>
+              <div class="houses__footer__bloks">
+                <img src="img/footer3.svg" alt="">
+                <span>2400 sqft</span>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+          <div class="houses__blok">
+            <img class="bg" src="bg/house6.jpg" alt="">
+            <div class="houses__padding">
+              <div class="houses__blok__text">San Diego story</div>
+            <div class="houses__blok__subtext">$ 3,700.00 USD</div>
+            <div class="houses__blok__map">
+              <img src="img/map.svg" alt="">
+              <div class="houses__blok__map__text">2569 El Segundo, San Diego</div>
+            </div>
+            <div class="houses__footer">
+              <div class="houses__footer__bloks">
+                <img src="img/footer1.svg" alt="">
+                <span>1</span>
+              </div>
+              <div class="houses__footer__bloks">
+                <img src="img/footer2.svg" alt="">
+                <span>2</span>
+              </div>
+              <div class="houses__footer__bloks">
+                <img src="img/footer3.svg" alt="">
+                <span>650 sqft</span>
+              </div>
+            </div>
+            </div>
+          </div>
+    
+          
+
+          
+      
+        
+
+      
+          </div>
+          <div class="send__btns send__btns__houses">
+            <button class="send__btns__btn">Explore properties</button>
+            <div class="send__btns__te"> Contact agent <img src="img/arrow.svg" alt="">
+        </div>
+        <div class="three hidden">
+          <span>Our email</span>: dendet@gmail.com <br>
+          <span>Our phone</span>: +380665820998 <br>
+          <span>Our adress</span>: c.Dnepr, Hewen
+          <button class="remove__added">закрыть</button>
+      </div>
+      </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="location">
+      <div class="container">
+        <div class="row">
+          <div class="padding">
+            <div class="location__text">
+              Locations
+            </div>
+            <span class="send__subtext">Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet non <br> nisl sit amet.</span>
+  
+            <div class="location__bloks">
+              <div class="location__blok">
+                <h2 class="location__blok__name">San Francisco, CA</h2>
+                <div class="location__blok__contact"> View Properties <img src="img/arrow.svg" alt="">
+                </div>
+              </div>
+  
+              <div class="location__blok">
+                <h2 class="location__blok__name">Los Angeles, CA</h2>
+                <div class="location__blok__contact"> View Properties <img src="img/arrow.svg" alt="">
+                </div>
+              </div>
+  
+              <div class="location__blok">
+                <h2 class="location__blok__name">San Diego, CA</h2>
+                <div class="location__blok__contact"> View Properties <img src="img/arrow.svg" alt="">
+                </div>
+              </div>
+  
+              <div class="location__blok" style="margin-top: 16px ;">
+                <h2 class="location__blok__name">New York, NY</h2>
+                <div class="location__blok__contact"> View Properties <img src="img/arrow.svg" alt="">
+                </div>
+              </div>
+  
+              <div class="location__blok" style="margin-top: 16px ;">
+                <h2 class="location__blok__name">Las Vegas, NV</h2>
+                <div class="location__blok__contact"> View Properties <img src="img/arrow.svg" alt="">
+                </div>
+              </div>
+  
+              <div class="location__blok" style="margin-top: 16px ;">
+                <h2 class="location__blok__name">Miami, FL</h2>
+                <div class="location__blok__contact"> View Properties <img src="img/arrow.svg" alt="">
+                </div>
+              </div>
+            </div>
+  
+            <div class="send__btns send__btns__houses">
+              <button class="send__btns__btn">Explore properties</button>
+              <div class="send__btns__t">Contact agent <img src="img/arrow.svg" alt="">
+          </div>
+          <div class="four hidden">
+            <span>Our email</span>: dendet@gmail.com <br>
+            <span>Our phone</span>: +380665820998 <br>
+            <span>Our adress</span>: c.Dnepr, Hewen
+            <button class="remove__add__four">закрыть</button>
+        </div>
+        </div>
+  
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section class="family">
+      <div class="container" >
+       <div class="row">
+        <div class="padding">
+          <img src="img/family.svg" alt="">
+          <div class="location__text">
+            Families are our priority
+          </div>
+          <span class="send__subtext">Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non, placerat vel arcu. In non <br> consectetur lorem. Morbi non varius sapien suscipit mauri.</span>
+          <button class="family__btn">Get started</button>
+          
+
+
+        </div>
+       </div>
+      </div>
+    </section>
+
+
+    <section class="customers">
+      <div class="container">
+        <div class="row">
+          <div class="padding">
+            <div class="location__text">
+              What customers say
+            </div>
+            <span class="send__subtext">Faucibus orci luctus et ultrices posuere cubilia curae.</span>
+            <div class="customers__bloks">
+              <div class="customers__blok">
+                <img src="img/starts.png" alt="">
+                <div class="customers__blok__text">
+                  "Aliquam erat volutpat. Nulla pretium nec <br> urna et convallis. Ut varius mi lacus, nec <br> molestie libero ultricies nec. Aenean <br> lacinia dui elit, ut gravida quam."
+                </div>
+                <div class="customers__blok__profile">
+                  <div class="img"><img src="img/custimers1.png" alt=""></div>
+                  <div class="customers__blok__name">
+                    Michael Webb <br>
+                    <span>Customer</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="customers__blok">
+                <img src="img/starts.png" alt="">
+                <div class="customers__blok__text">
+                  "Class aptent taciti sociosqu ad litora <br> torquent per conubia nostra, per <br> inceptos himenaeos. Morbi pretium  <br>iaculis ultricies. Aenean in leo vitae <br> tortor."
+                </div>
+                <div class="customers__blok__profile">
+                  <div class="img"><img src="img/custimers2.png" alt=""></div>
+                  <div class="customers__blok__name">
+                    Amber Keene <br>
+                    <span>Customer</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="customers__blok">
+                <img src="img/starts.png" alt="">
+                <div class="customers__blok__text">
+                  "Condimentum viverra orci. Pellentesque <br> suscipit odio nisl, non ultricies purus <br> mattis eget. In placerat, lorem a sodales <br> ullamcorper, eros nibh laoreet nisl."
+                </div>
+                <div class="customers__blok__profile">
+                  <div class="img"><img src="img/custimers3.png" alt=""></div>
+                  <div class="customers__blok__name">
+                    Sarah Tarleton <br>
+                    <span>Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="posts">
+      <div class="container">
+        <div class="row">
+          <div class="padding">
+            <button class="send__btn">Blog</button>
+          <div class="location__text">
+            Latest posts
+          </div>
+          <div class="posts__view">
+            <span class="send__subtext">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. <br> Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.</span>
+            <button class="view">View all</button>
+          </div>
+
+          <div class="posts__bloks">
+            <div class="posts__blok">
+              <img class="posts__blok__img" src="bg/posts1.jpg" alt="">
+              <div class="posts__blok__padding">
+                <div class="posts__blok__flex">
+                  <button>Trends</button>
+                  May 10, 2022
+                </div>
+                <div class="posts__blok__text">The 9 best homes in New York</div>
+                <div class="posts__blok__subtext">Integer tincidunt rutrum faucibus. Proin sit <br> amet varius arcu. Aliquam vel leo augue <br> donec.</div>
+                <div class="send__btns__text__read">Read more <img src="img/arrow.svg" alt="">
+              </div>
+              </div>
+          </div>
+
+            <div class="posts__blok">
+              <img  class="posts__blok__img" src="bg/posts2.jpg" alt="">
+              <div class="posts__blok__padding">
+                <div class="posts__blok__flex">
+                  <button>DIY</button>
+                  May 10, 2022
+                </div>
+                <div class="posts__blok__text">The 9 best homes in New York</div>
+                <div class="posts__blok__subtext">Integer tincidunt rutrum faucibus. Proin sit <br> amet varius arcu. Aliquam vel leo augue <br> donec.</div>
+                <div class="send__btns__text__read">Read more <img src="img/arrow.svg" alt="">
+              </div>
+              </div>
+          </div>
+
+            <div class="posts__blok">
+              <img class="posts__blok__img" src="bg/posts3.jpg" alt="">
+              <div class="posts__blok__padding">
+                <div class="posts__blok__flex">
+                  <button class="posts__blok__flex__btn">DIY</button>
+                  May 10, 2022
+                </div>
+                <div class="posts__blok__text">The 9 best homes in New York</div>
+                <div class="posts__blok__subtext">Integer tincidunt rutrum faucibus. Proin sit <br> amet varius arcu. Aliquam vel leo augue <br> donec.</div>
+                <div class="send__btns__text__read">Read more <img src="img/arrow.svg" alt="">
+              </div>
+              </div>
+          </div>
+
+          <div class="posts__blok hidden" style="margin-top: 20px;">
+            <img class="posts__blok__img" src="bg/house4.jpg" ">
+            <div class="posts__blok__padding">
+              <div class="posts__blok__flex">
+                <button>Trends</button>
+                May 10, 2022
+              </div>
+              <div class="posts__blok__text">The 9 best homes in New York</div>
+              <div class="posts__blok__subtext">Integer tincidunt rutrum faucibus. Proin sit <br> amet varius arcu. Aliquam vel leo augue <br> donec.</div>
+              <div class="send__btns__text__read">Read more <img src="img/arrow.svg" alt="">
+            </div>
+            </div>
+        </div>
+
+          <div class="posts__blok hidden" style="margin-top: 20px;">
+            <img  class="posts__blok__img" src="bg/house5.jpg" alt="">
+            <div class="posts__blok__padding">
+              <div class="posts__blok__flex">
+                <button>DIY</button>
+                May 10, 2022
+              </div>
+              <div class="posts__blok__text">The 9 best homes in New York</div>
+              <div class="posts__blok__subtext">Integer tincidunt rutrum faucibus. Proin sit <br> amet varius arcu. Aliquam vel leo augue <br> donec.</div>
+              <div class="send__btns__text__read">Read more <img src="img/arrow.svg" alt="">
+            </div>
+            </div>
+        </div>
+
+          <div class="posts__blok hidden" style="margin-top: 20px;">
+            <img class="posts__blok__img" src="bg/house6.jpg" alt="">
+            <div class="posts__blok__padding">
+              <div class="posts__blok__flex">
+                <button class="posts__blok__flex__btn">DIY</button>
+                May 10, 2022
+              </div>
+              <div class="posts__blok__text">The 9 best homes in New York</div>
+              <div class="posts__blok__subtext">Integer tincidunt rutrum faucibus. Proin sit <br> amet varius arcu. Aliquam vel leo augue <br> donec.</div>
+              <div class="send__btns__text__read">Read more <img src="img/arrow.svg" alt="">
+            </div>
+            </div>
+        </div>
+      </div>
+
+        </div>
+        
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="footer__info">
+            <div class="footer__logo">
+              <img src="img/logo.png" alt=""><span>Realco</span> 
+          </div>
+
+          <ul class="ul">
+            <li><a href="">Pages</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Agents</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Properties</a></li>
+          </ul>
+
+          <ul class="ul">
+            <li><a href="">CMS Pages</a></li>
+            <li><a href="">Property</a></li>
+            <li><a href="">Property Single</a></li>
+            <li><a href="">Blog Categories</a></li>
+            <li><a href="">Blog Single</a></li>
+            <li><a href="">Agent Single</a></li>
+          </ul>
+
+          <ul class="ul">
+            <li><a href="">Utility Pages</a></li>
+            <li><a href="">Style Guide</a></li>
+            <li><a href="">Changelog</a></li>
+            <li><a href="">Licenses</a></li>
+            <li><a href="">404</a></li>
+            <li><a href="">Password</a></li>
+            <li><a href="">Search</a></li>
+          </ul>
+
+          <div class="footer__email">
+            <div class="footer__text">Subscribe</div>
+            <div class="footer__subtext">Join our newsletter to stay up to date on features and <br> releases.</div>
+            <form action="">
+              <input class="footer__input" type="email" name="email" required placeholder="Enter your email">
+              <button class="footer_button" type="submit">Subscribe</button>
+            </form>
+            <div class="footer__about"><span>By subscribing you agree to with our</span>   Privacy Policy</div>
+          </div>
+
+          </div>
+          <div class="footer__soc">
+            <div class="footer__soc__left">
+              <a href=""><img src="img/footer.svg" alt=""></a>
+              Minimal Square
+            </div>
+            <div class="footer__soc__right">
+              <a href=""><img src="img/facebook.svg" alt="facebook"></a>
+              <a href=""><img src="img/insta.svg" alt="insta"></a>
+              <a href=""><img src="img/twitter.svg" alt="twitter"></a>
+              <a href=""><img src="img/linkedin.svg" alt="linkedin"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    
+    
+    
+    
+   
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    
+  </body>
+</html>

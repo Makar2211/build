@@ -1,0 +1,339 @@
+.send{
+    min-height: 630px;
+    display: flex;
+    flex-direction: row;
+    background: #F5F5F5;
+    &__left{
+        
+        position: relative;
+        padding: 120px 124px 0px 80px;
+        
+    }
+    &__right{
+        position: relative;
+        
+        img{
+            height: 600px;
+            
+        }
+    }
+    &__btn{
+        width: 107px;
+        height: 29px;
+        background: #E7E8E3;
+        border-radius: 32px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #2A2C1F;
+        border: none;
+    }
+
+    &__text{
+        margin-top: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #2A2C1F;
+        margin-bottom: 28px;
+
+    }
+    &__subtext{
+        display: block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #65665C;
+        margin-bottom: 21px;
+
+    }
+    &__btns{
+        position: relative;
+        display: flex;
+        &__houses{
+            margin: 0 auto;
+            margin-top: 50px
+        }
+        &__btn{
+            box-sizing: border-box;
+            width: 192px;
+            height: 50px;
+            background: #FFFFFF;
+            border: 1px solid #E7E8E3;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+            border-radius: 6px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #2A2C1F;
+
+        }
+        &__text{
+            
+            padding-top: 13px;
+            padding-left: 24px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+
+            color: #2A2C1F;
+
+        }
+    }
+}
+
+.sendbot{
+    padding-top:  100px ;
+    min-height: 630px;
+    display: flex;
+    flex-direction: row;
+    background: #F5F5F5;
+    padding-bottom: 128px;
+    &__right{
+        margin-top: 60px;
+    }
+    &__docs{
+        margin-top: 37px;
+        display: flex;
+        justify-content: start;
+        margin-bottom: 30px;
+        
+        &__doc{
+            &__img{
+                
+                background: #FAE8E1;
+                border-radius: 8px;
+                display:flex;
+                justify-content: center; /*центрируем элемент по горизонтали */
+                align-items: center; /* и вертикали */
+                width: 48px;
+                height: 48px;
+                overflow: hidden;
+
+            }
+        &__text{
+            margin-top: 16px;
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+            color: #2A2C1F;
+        }
+        &__subtext{
+            margin-top: 18px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #65665C;
+        }
+        }
+    }
+.doc{
+    margin-left: 67px;
+}
+
+}
+
+@media screen and (max-width: 1400px){
+    .send__left {
+        position: relative;
+        padding: 90px 90px 0px 69px;
+    }
+    .send__right img {
+        height: 100%;
+        width: 100%;
+    }
+    .sendbot__left{
+        img{
+            width: 100%;
+        }
+    }
+    .sendbot__right {
+        margin-top: 40px;
+    }
+    .send__text {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .send__btns__houses {
+            margin: 0 auto;
+            margin-top: 50px
+        
+    }
+}
+@media screen and (max-width: 1200px){
+    .sendbot__right {
+        margin-top: 0px;
+    }
+    .send__text {
+        font-size: 39px;
+        line-height: 40px;
+    }
+    .send__subtext {
+        font-size: 14px;
+        line-height: 23px;
+        color: #65665C;
+        margin-bottom: -20px;
+    }
+    .sendbot__docs {
+        margin-bottom: -40px;
+    }
+    .sendbot .doc {
+        margin-left: 30px;
+    }
+    .sendbot__docs__doc__subtext {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .send__left {
+        position: relative;
+        padding: 27px 0px 0px 40px;
+    }
+    .send__left {
+        position: relative;
+        padding: 27px 0px 0px 40px;
+        margin-top: 40px;
+    }
+    .send__right{
+        margin-top: 40px;
+    }
+    
+    .sendbot {
+        padding-top: 0px;
+        margin-top: -110px;
+        padding-bottom: 0px;
+    }
+    .send__text {
+        font-size: 34px;
+        line-height: 35px;
+    }
+    .send__subtext {
+        font-size: 14px;
+        line-height: 20px;
+        color: #65665C;
+        margin-bottom: -20px;
+    }
+    .sendbot__docs__doc__text {
+        font-size: 18px;
+        line-height: 13px;
+    }
+    .sendbot__docs__doc__subtext {
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .send__left {
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .send__btns {
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 140px;
+    }
+    .contact, .second, .three {
+        margin-top: 10px;
+        position: absolute;
+        top: 50px;
+        left: 35%;
+        z-index: 100;
+    }
+    .sendbot__left img {
+        width: 100%;
+        padding-top: 140px;
+    }
+    .sendbot__right {
+        margin-top: 25px;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .sendbot__docs {
+        margin-bottom: -40px;
+        justify-content: center;
+    }
+    .sendbot__docs__doc__img {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 576px){
+    .contact, .second, .three {
+        margin-top: 10px;
+        position: absolute;
+        top: 50px;
+        left: 28%;
+        z-index: 100;
+    }
+    .col-md-6{
+        padding: 20px;
+    }
+    .send__right {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 426px){
+    .contact, .second, .three {
+        margin-top: 10px;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        z-index: 100;
+    }
+    .send__right img {
+        height: 100%;
+        width: 100%;
+        margin-top: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .contact {
+        margin-top: 10px;
+        position: absolute;
+        top: 50px;
+        left: 13%;
+        z-index: 100;
+    }
+    .send__text {
+        font-size: 31px;
+        line-height: 33px;
+    }
+    .send__btns__btn {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .send__btns__text {
+        padding-top: 13px;
+        padding-left: 14px;
+    }
+    .contact, .second, .three {
+        margin-top: 10px;
+        position: absolute;
+        top: 50px;
+        left: 3%;
+        z-index: 100;
+    }
+}

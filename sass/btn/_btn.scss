@@ -1,0 +1,39 @@
+.button{
+    margin-left: 15px;
+    width: 159px;
+    height: 42px;
+    box-sizing: border-box;
+    background: #CF6F49;
+    border: 1px solid #CF6F49;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    &__submit{
+        width: 154px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 525px){
+    .button {
+        margin-left: 15px;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 426px){
+    .button {
+        width: 73px;
+    }
+    .button__submit{
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+        width: 100px;
+        margin-top: 13px;
+        align-items: center;
+    }
+}

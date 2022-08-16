@@ -1,0 +1,231 @@
+.find{
+    min-height:  632px;;
+    background-color: #F5F5F2;
+    /* display: flex;
+    flex-wrap: wrap; */
+.find__information{
+    position: relative;
+    padding: 106px 124px 162px 80px;
+    }
+.find__btn{
+    width: 171px;
+    height: 29px;
+    background: #E7E8E3;
+    border-radius: 32px;
+    border: none;
+}
+.find__headtext{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+
+
+    color: #2A2C1F;
+
+}
+.find_subtext{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #65665C;
+
+}
+.find__input{
+   
+    padding: 9px 10px 9px 56px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 310px;
+    height: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    background: url('../../img/search.png')no-repeat scroll 20px  50%;
+}
+.find__form{
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.find__img{
+        /* width: 50%;
+        height: 100%;
+        float:right; */
+        img{
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.left{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.27%;
+    z-index: 1;
+}
+.right{
+    position: absolute;
+    right: -12px;
+    bottom: 1px;
+    z-index: 0;
+}
+@media screen and (max-width: 1439px){
+    .find {
+        min-height: 100%;
+    }
+    .find .find__information {
+        position: relative;
+        padding: 110px 50px 130px 70px;
+    }
+    .find .find__headtext {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 47px;
+        line-height: 57px;
+        color: #2A2C1F;
+    }
+    .find .find_subtext {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .left {
+        position: absolute;
+        left: 2%;
+        right: 0%;
+        top: 0%;
+        width: 19%;
+        bottom: 0.27%;
+        z-index: 1;
+    }
+    .right{
+        width: 19%;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .find {
+        min-height: 100%;
+    }
+    .find .find__headtext {
+        font-size: 43px;
+        line-height: 53px;
+    }
+    .find .find_subtext {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .find .find__input {
+        width: 250px;
+    }
+    .find .find__img img {
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width: 992px){
+    
+    .find .find__information {
+        position: relative;
+        padding: 0px; 
+    }
+    .left {
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .find .find__btn {
+        width: 171px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .find .find__headtext {
+        font-size: 35px;
+        line-height: 48px;
+        margin-left: 18px;
+    }
+    .find .find_subtext {
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 20px;
+    }
+    .find .find__input {
+        margin-left: 15px;
+    }
+    .button {
+        margin-left: 8px;
+        font-size: 15px;
+    }
+    .find {
+        min-height: 100%;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .find .find__information {
+        position: relative;
+        padding: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .find .find__form {
+        margin-top: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 576px){
+    .find .find__input {
+        width: 210px;
+    }
+    .find .find__btn {
+        width: 171px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .find .find__headtext {
+        margin-left: 0px;
+    }
+    .find .find_subtext {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 426px){
+    .find .find__input {
+        width: 210px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 320px){
+    .find .find__input {
+        width: 198px;
+        margin-left: 0px;
+    }
+}
+
+

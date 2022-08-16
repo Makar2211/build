@@ -1,0 +1,138 @@
+.container{
+    max-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+}
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(0 * var(--bs-gutter-y));
+    margin-right: calc(0 * var(--bs-gutter-x));
+    margin-left: calc(0 * var(--bs-gutter-x));
+}
+
+
+.send__btns__text,
+.send__btns__tex{
+    cursor: pointer;
+}
+.send__btns__tex, .send__btns__te, .send__btns__t{
+    padding-top: 13px;
+    padding-left: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2A2C1F;
+
+}
+.four{
+    margin-top: 0px;
+    position: absolute;
+    top: 50px;
+    z-index: 100;
+}
+
+.four{
+    margin-top: 10px;
+    position: absolute;
+    top: 50px;
+    z-index: 100;
+    button{
+        box-sizing: border-box;
+        width: 192px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #E7E8E3;
+        border-radius: 6px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #2A2C1F;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #E7E8E3;
+    }
+    span{
+        font-weight: 700;
+    }
+}
+.contact, .second, .three{
+    margin-top: 10px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    z-index: 100;
+    button{
+        box-sizing: border-box;
+        width: 192px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #E7E8E3;
+        border-radius: 6px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #2A2C1F;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #E7E8E3;
+    }
+    span{
+        font-weight: 700;
+    }
+}
+
+.hidden{
+    display: none;
+}
+.three{
+    margin-top: 10px;
+        position: absolute;
+        top: 50px;
+        left: 42%;
+        z-index: 100;
+}
+
+@media screen and (max-width: 768px){
+    .houses .contact, .houses .second, .houses .three, .four {
+        margin-top: 30px;
+        top: 50%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+}
+
+
+
+
+
+@import'../main.scss/header';
+@import'../btn/btn';
+@import'../form/form';
+@import'../main.scss/find';
+@import'../main.scss/works';
+@import'../main.scss/send';
+@import'../main.scss/houses';
+@import'../main.scss/location.scss';
+@import'../main.scss/family.scss';
+@import'../main.scss/customers.scss';
+@import'../main.scss/posts';
+@import'../main.scss/footer';
